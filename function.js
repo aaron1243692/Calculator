@@ -10,8 +10,8 @@ function clearDisplay() {
 function calculate() {
     const display = document.getElementById('display');
     try {
-        display.value = "I miss you :(  ";
-        // display.value = eval(display.value);
+        // display.value = "I miss you :(  ";
+        display.value = eval(display.value);
     } catch (e) {
         display.value = 'Error';
     }
